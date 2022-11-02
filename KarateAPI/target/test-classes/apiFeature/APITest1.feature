@@ -17,7 +17,7 @@ Scenario: Hello World
 	* print 'Total ->' + (balance + fee + fee)
 	* set response.data[2].email = 'test@test.com'
 	* karate.write(response,'../src/test/java/outputJSON/response.json')
-	* def inputJSON = read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/inputBody/inputJSON.json')
+	* def inputJSON = read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/inputBody/inputJSON.json')
 	* set inputJSON.data[2].email = 'test@test.com'
 	* match response == inputJSON
 	* print 'inputJSON.data[2].email: '+inputJSON.data[2].email
@@ -51,7 +51,7 @@ Scenario: Hello World
 	* def featureReturnVal = call read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
 	* def ll = featureReturnVal.response
 	* print ll
-	* def eefe = read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
+	* def eefe = read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
   * print eefe
   * print eefe.name
   * match ll == featureReturnVal.response
@@ -62,3 +62,7 @@ Scenario: Hello World
   * print ll[3]
   * print ll[4]
   * print ll[5]
+  * url 'https://gorest.co.in/public/v2/users'
+  * method GET
+  * print response
+  
