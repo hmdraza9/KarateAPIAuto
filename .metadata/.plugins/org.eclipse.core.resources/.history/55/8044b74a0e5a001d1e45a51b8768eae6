@@ -1,0 +1,8 @@
+Feature: Hello World feature
+
+Scenario: Hello World
+
+	* print 'Hello world'
+	* url 'https://reqres.in/api/users?page=2'
+	* method GET
+	* print response

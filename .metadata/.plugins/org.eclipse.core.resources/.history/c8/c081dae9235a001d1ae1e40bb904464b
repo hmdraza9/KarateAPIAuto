@@ -1,0 +1,6 @@
+Feature: This will be called in other feature
+
+Scenarion:
+
+* print 'Hello'
+* def nameee = 'Name is Hamid'

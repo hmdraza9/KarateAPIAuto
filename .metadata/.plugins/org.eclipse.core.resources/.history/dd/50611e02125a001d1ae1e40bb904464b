@@ -1,0 +1,21 @@
+package runnerPackage;
+
+import org.junit.runner.RunWith;
+
+import com.intuit.karate.KarateOptions;
+import com.intuit.karate.junit4.Karate;
+
+import cucumber.api.CucumberOptions;
+
+@RunWith(Karate.class)
+@KarateOptions(
+//		features="C:/workspace/CucumberTest/src/test/java/testAPIAuto"
+//		,tags= {"stepDefinition"},
+//		features = {"pretty", "html:test-output","json:json_output_/cucumber.json"},
+//		tags=true,
+//		tags=false
+		)
+
+public class APIRunner {
+
+}

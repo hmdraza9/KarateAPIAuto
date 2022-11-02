@@ -1,0 +1,24 @@
+Feature: Hello World feature
+
+Scenario: Hello World
+
+	* print 'Hello world'
+	* url 'https://reqres.in/api/users?page=2'
+	* method GET
+	* def dataLength = response.data.length
+	* print dataLength
+	* def dataList = []
+	* eval for(var i = 0;i <= dataLength; i++) dataList.add(response.data[i])
+	* print dataList
+	* url 'https://reqres.in/api/unknown'
+	* print response
+	* def balance = 200
+	* def fee = 20
+	* print 'Total ->' + (balance + fee + fee)
+	* set response.data[2].email = 'test@test.com'
+	* karate.write(response,'../src/test/java/outputJSON/response.json')
+	* def inputJSON = read('C:/WSs/newKarateAPIAuto/KarateFW/src/test/java/inputBody/inputJSON.json')
+	* set inputJSON.data[2].email = 'test@test.com'
+	* match response == inputJSON
+	* print inputJSON.data[2].email
+	* print response.data[2].email

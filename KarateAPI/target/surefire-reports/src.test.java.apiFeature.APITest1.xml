@@ -1,0 +1,47 @@
+<testsuite failures="0" name="src/test/java/apiFeature/APITest1.feature" skipped="0" tests="1" time="1.072053">
+  <testcase classname="src.test.java.apiFeature.APITest1" name="Hello World" time="1.072053">
+    <system-out>* print 'Hello world' ..................................................... passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method GET .............................................................. passed
+* def dataLength = response.data.length ................................... passed
+* print dataLength ........................................................ passed
+* def dataList = [] ....................................................... passed
+* eval for(var i = 0;i &lt;= dataLength; i++) dataList.add(response.data[i]) . passed
+* print dataList .......................................................... passed
+* url 'https://reqres.in/api/unknown' ..................................... passed
+* print response .......................................................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* print 'Total -&gt;' + (balance + fee + fee) ................................ passed
+* set response.data[2].email = 'test@test.com' ............................ passed
+* karate.write(response,'../src/test/java/outputJSON/response.json') ...... passed
+* def inputJSON = read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/inputBody/inputJSON.json') . passed
+* set inputJSON.data[2].email = 'test@test.com' ........................... passed
+* match response == inputJSON ............................................. passed
+* print 'inputJSON.data[2].email: '+inputJSON.data[2].email ............... passed
+* print 'response.data[2].email: '+  response.data[2].email ............... passed
+* def reqDataCount = inputJSON.data.length ................................ passed
+* def resDataCount = response.data.length ................................. passed
+* match reqDataCount == resDataCount ...................................... passed
+* def myFunct = ........................................................... passed
+* def myFunct2 = .......................................................... passed
+* def fun1Val = call myFunct .............................................. passed
+* def fun2Val = call myFunct2 'param' ..................................... passed
+* print fun1Val ........................................................... passed
+* print fun2Val ........................................................... passed
+* def featureReturnVal = call read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature') . passed
+* def ll = featureReturnVal.response ...................................... passed
+* print ll ................................................................ passed
+* def eefe = read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature') . passed
+* print eefe .............................................................. passed
+* print eefe.name ......................................................... passed
+* match ll == featureReturnVal.response ................................... passed
+* print ll.length ......................................................... passed
+* print ll[0] ............................................................. passed
+* print ll[1] ............................................................. passed
+* print ll[2] ............................................................. passed
+* print ll[3] ............................................................. passed
+* print ll[4] ............................................................. passed
+* print ll[5] ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

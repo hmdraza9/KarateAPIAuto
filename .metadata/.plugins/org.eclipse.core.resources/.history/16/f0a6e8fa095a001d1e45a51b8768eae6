@@ -1,0 +1,4 @@
+Feature: Hello World
+
+Scenario:
+Given print 'Hello world'

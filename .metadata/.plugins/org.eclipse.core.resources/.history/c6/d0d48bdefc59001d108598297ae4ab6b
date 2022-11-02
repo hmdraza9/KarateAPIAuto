@@ -1,0 +1,11 @@
+Feature: API testing with Karate
+
+
+Scenario Outline:
+
+Given print 'Hello'
+
+
+Examples:
+|Name|
+|123|

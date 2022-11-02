@@ -1,0 +1,4 @@
+Feature: Hello World
+
+Scenario:
+* print 'Hello world'

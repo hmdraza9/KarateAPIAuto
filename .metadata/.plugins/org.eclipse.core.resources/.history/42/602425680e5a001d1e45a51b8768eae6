@@ -1,0 +1,10 @@
+Feature: Hello World feature
+
+Scenario: Hello World
+
+	* print 'Hello world'
+	* url 'https://reqres.in/api/users?page=2'
+	* method GET
+	* def dataLength = response.data.length
+	* print dataLength
+	* eval (var i =0;i<=)
