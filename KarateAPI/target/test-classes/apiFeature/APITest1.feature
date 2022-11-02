@@ -58,7 +58,7 @@ Scenario: Hello World
   * print ll.length
   * print ll[0]
   * print ll[1]
-  * print ll[2]
+  * print ll[2] 
   * print ll[3]
   * print ll[4]
   * print ll[5]
