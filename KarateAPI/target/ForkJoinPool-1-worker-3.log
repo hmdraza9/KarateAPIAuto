@@ -1,25 +1,25 @@
-18:53:51.463 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-18:53:51.481 [print] Hello world
-18:53:51.901 request:
+12:15:39.329 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:15:39.349 [print] Hello world
+12:15:39.809 request:
 1 > GET https://reqres.in/api/users?page=2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13)
 
-18:53:52.234 response time in milliseconds: 328.45
+12:15:40.077 response time in milliseconds: 260.69
 1 < 200
 1 < Access-Control-Allow-Origin: *
-1 < Age: 4540
+1 < Age: 1260
 1 < CF-Cache-Status: HIT
-1 < CF-RAY: 763d2ff30daa4b0b-HYD
+1 < CF-RAY: 764326013caf4af2-HYD
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 02 Nov 2022 13:23:53 GMT
+1 < Date: Thu, 03 Nov 2022 06:45:40 GMT
 1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jgrOUvVnWJbRNJJHgQTU5DebQb0ze7dIsv8vG2X1fbl5zVUZVWEH%2B4WyoVRnb1AWqCh6VvyDzRhgDWRzsYhamQuNH7cBsXrDqaoIlbeFTEPRwWUJpaDIT2OxEQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QSTM7PKprd3U3KZrErRuvlzif4TiNSt8Xjj%2Br2MFoDBO7T4%2FLZ%2BRnNJJElZ27XXHlF7iT2HOxV%2ByUPI3TDnUjE4cfNTEMk7bfVfAN9p6Oeux4%2FgKQuA3HPKMHw%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
@@ -27,8 +27,8 @@
 1 < X-Powered-By: Express
 {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-18:53:52.304 [print] 6
-18:53:52.367 [print] [
+12:15:40.245 [print] 6
+12:15:40.317 [print] [
   {
     "last_name": "Lawson",
     "id": 7,
@@ -74,7 +74,7 @@
   undefined
 ]
 
-18:53:52.371 [print] {
+12:15:40.322 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -129,32 +129,32 @@
   }
 }
 
-18:53:52.395 [print] Total ->240
-18:53:52.575 [print] inputJSON.data[2].email: test@test.com
-18:53:52.582 [print] response.data[2].email: test@test.com
-18:53:52.608 [print] FunctionWithoutParam
-18:53:52.609 [print] FunctionWithParam: param, arg.len:5
-18:53:52.638 [print] Hello
-18:53:52.651 request:
+12:15:40.338 [print] Total ->240
+12:15:40.553 [print] inputJSON.data[2].email: test@test.com
+12:15:40.560 [print] response.data[2].email: test@test.com
+12:15:40.584 [print] FunctionWithoutParam
+12:15:40.584 [print] FunctionWithParam: param, arg.len:5
+12:15:40.607 [print] Hello
+12:15:40.619 request:
 1 > GET https://reqres.in/api/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13)
 
-18:53:52.707 response time in milliseconds: 53.80
+12:15:40.699 response time in milliseconds: 75.49
 1 < 200
 1 < Access-Control-Allow-Origin: *
-1 < Age: 4536
+1 < Age: 341
 1 < CF-Cache-Status: HIT
-1 < CF-RAY: 763d2ff62c6c4b0b-HYD
+1 < CF-RAY: 764326053be74acf-HYD
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 02 Nov 2022 13:23:53 GMT
+1 < Date: Thu, 03 Nov 2022 06:45:41 GMT
 1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k%2BF4Wd5Pbfj75C1ebj3hS8d9g0s93W%2BN9CP6%2F6oSQoV7OnmT7IW878OzE75YlBZ2z76lRiYmH26oacdyD8XIJw2eTpgu9UBzt0HxM1FipetmyrE8BF34cVyvyA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KCn2SYEpbqWhrbzXhM%2BQEnwtxEF%2BTacCbqEZJcJTeoYBgGCOFunZRYX9VbfDRT3ME0Op2u6n7Wy6qI%2FBmcV3C%2BcsynZzlcQlV2lHsJOglVw9yZ2sDDAMFzRPbw%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
@@ -162,7 +162,7 @@
 1 < X-Powered-By: Express
 {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-18:53:52.710 [print] {
+12:15:40.700 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -217,7 +217,7 @@
   }
 }
 
-18:53:52.721 [print] {
+12:15:40.710 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -272,36 +272,36 @@
   }
 }
 
-18:53:52.729 [print] C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature
-18:53:52.735 [print] This will be called in other feature
-18:53:52.741 [print] 6
-18:53:52.748 [print] 
-18:53:52.753 [print] 
-18:53:52.757 [print] 
-18:53:52.762 [print] 
-18:53:52.765 [print] 
-18:53:52.769 [print] 
-18:53:52.773 request:
+12:15:40.717 [print] C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature
+12:15:40.725 [print] This will be called in other feature
+12:15:40.739 [print] 6
+12:15:40.748 [print] 
+12:15:40.754 [print] 
+12:15:40.761 [print] 
+12:15:40.769 [print] 
+12:15:40.773 [print] 
+12:15:40.781 [print] 
+12:15:40.787 request:
 2 > GET https://gorest.co.in/public/v2/users
 2 > Accept-Encoding: gzip,deflate
 2 > Connection: Keep-Alive
 2 > Host: gorest.co.in
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/13)
 
-18:53:53.749 response time in milliseconds: 973.99
+12:15:41.908 response time in milliseconds: 1114.63
 2 < 200
 2 < CF-Cache-Status: DYNAMIC
-2 < CF-RAY: 763d2ffa4c9290ef-FRA
+2 < CF-RAY: 76432608e8b39b4b-FRA
 2 < Cache-Control: max-age=0, private, must-revalidate
 2 < Connection: keep-alive
 2 < Content-Type: application/json; charset=utf-8
-2 < Date: Wed, 02 Nov 2022 13:23:54 GMT
+2 < Date: Thu, 03 Nov 2022 06:45:42 GMT
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZWXgulcd5%2Fv3vr%2B76cGyxw8aKRoAP1F1OYHtruDhUmo832KCeSJsLkZbAkmTAVABl2uPyHkfx8Q97QO%2B4LcPbcO2u0mEd8xa%2FhvNWU9oEqErfxKRoMiRDLudBexRwoM%3D"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nEKS2tP3uZP2uaLj3fv9qxW7LUjiepg%2FesJTGMuM4KjYYogG44FQCrkiYRH8olirR6G%2F3%2BEor1eTl5%2FaPKc0dhpNlV1R0RAMVeBDidksUxpznyUYq4sHgji1g9Q3jkw%3D"}],"group":"cf-nel","max_age":604800}
 2 < Server: cloudflare
 2 < Transfer-Encoding: chunked
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-2 < etag: W/"97a4a15fa6ba040a9829110d1bfc2d77"
+2 < etag: W/"f8908d586707c86e9bc49f0f4839d1d0"
 2 < referrer-policy: strict-origin-when-cross-origin
 2 < vary: Origin
 2 < x-content-type-options: nosniff
@@ -312,84 +312,198 @@
 2 < x-links-previous: 
 2 < x-pagination-limit: 10
 2 < x-pagination-page: 1
-2 < x-pagination-pages: 399
-2 < x-pagination-total: 3988
+2 < x-pagination-pages: 343
+2 < x-pagination-total: 3421
 2 < x-permitted-cross-domain-policies: none
-2 < x-request-id: edd65553-f9fe-4b0c-8f70-57a1e7f67715
-2 < x-runtime: 0.022008
+2 < x-request-id: c4ea6d53-e0f3-4f93-9ab8-63d1c55fe66b
+2 < x-runtime: 0.018983
 2 < x-xss-protection: 0
-[{"id":4058,"name":"Gov. Jyotsana Mukhopadhyay","email":"mukhopadhyay_jyotsana_gov@considine.biz","gender":"male","status":"active"},{"id":4057,"name":"Prasad Gupta PhD","email":"prasad_gupta_phd@sauer.net","gender":"female","status":"active"},{"id":4056,"name":"Anurag Kaur CPA","email":"kaur_anurag_cpa@hackett-johns.io","gender":"male","status":"inactive"},{"id":4055,"name":"Adwitiya Varma III","email":"varma_iii_adwitiya@hodkiewicz-pagac.co","gender":"male","status":"active"},{"id":4054,"name":"Karunanidhi Gill","email":"karunanidhi_gill@quitzon-moore.name","gender":"male","status":"inactive"},{"id":4053,"name":"Pres. Bhima Kocchar","email":"kocchar_bhima_pres@stehr-homenick.org","gender":"female","status":"inactive"},{"id":4052,"name":"Tapan Bharadwaj","email":"bharadwaj_tapan@turcotte.name","gender":"female","status":"active"},{"id":4051,"name":"Chatura Chopra","email":"chopra_chatura@carter.biz","gender":"male","status":"inactive"},{"id":4050,"name":"Kanchan Desai","email":"desai_kanchan@dubuque-olson.net","gender":"female","status":"active"},{"id":4049,"name":"Dandak Marar","email":"marar_dandak@gibson.name","gender":"male","status":"inactive"}]
+[{"id":3475,"name":"Umang Bandopadhyay JD","email":"umang_bandopadhyay_jd@boyer.info","gender":"male","status":"active"},{"id":3474,"name":"Achintya Dhawan","email":"achintya_dhawan@osinski.net","gender":"female","status":"inactive"},{"id":3471,"name":"Mr. Girja Ahluwalia","email":"mr_girja_ahluwalia@paucek.com","gender":"female","status":"inactive"},{"id":3470,"name":"Ravi Marar","email":"ravi_marar@blick.net","gender":"male","status":"inactive"},{"id":3469,"name":"Chandra Jha","email":"chandra_jha@rempel-rowe.biz","gender":"female","status":"inactive"},{"id":3467,"name":"Gauranga Somayaji","email":"somayaji_gauranga@okon.info","gender":"female","status":"inactive"},{"id":3466,"name":"Brahmabrata Varman","email":"varman_brahmabrata@cremin.net","gender":"female","status":"inactive"},{"id":3465,"name":"Param Agarwal","email":"agarwal_param@bogisich.io","gender":"female","status":"active"},{"id":3464,"name":"Dev Ahluwalia","email":"ahluwalia_dev@cummings.biz","gender":"female","status":"inactive"},{"id":3463,"name":"Uttam Naik","email":"uttam_naik@jacobs.info","gender":"female","status":"active"}]
 
-18:53:53.751 [print] [
+12:15:41.912 [print] [
   {
     "gender": "male",
-    "name": "Gov. Jyotsana Mukhopadhyay",
-    "id": 4058,
-    "email": "mukhopadhyay_jyotsana_gov@considine.biz",
+    "name": "Umang Bandopadhyay JD",
+    "id": 3475,
+    "email": "umang_bandopadhyay_jd@boyer.info",
     "status": "active"
   },
   {
     "gender": "female",
-    "name": "Prasad Gupta PhD",
-    "id": 4057,
-    "email": "prasad_gupta_phd@sauer.net",
-    "status": "active"
-  },
-  {
-    "gender": "male",
-    "name": "Anurag Kaur CPA",
-    "id": 4056,
-    "email": "kaur_anurag_cpa@hackett-johns.io",
-    "status": "inactive"
-  },
-  {
-    "gender": "male",
-    "name": "Adwitiya Varma III",
-    "id": 4055,
-    "email": "varma_iii_adwitiya@hodkiewicz-pagac.co",
-    "status": "active"
-  },
-  {
-    "gender": "male",
-    "name": "Karunanidhi Gill",
-    "id": 4054,
-    "email": "karunanidhi_gill@quitzon-moore.name",
+    "name": "Achintya Dhawan",
+    "id": 3474,
+    "email": "achintya_dhawan@osinski.net",
     "status": "inactive"
   },
   {
     "gender": "female",
-    "name": "Pres. Bhima Kocchar",
-    "id": 4053,
-    "email": "kocchar_bhima_pres@stehr-homenick.org",
+    "name": "Mr. Girja Ahluwalia",
+    "id": 3471,
+    "email": "mr_girja_ahluwalia@paucek.com",
+    "status": "inactive"
+  },
+  {
+    "gender": "male",
+    "name": "Ravi Marar",
+    "id": 3470,
+    "email": "ravi_marar@blick.net",
     "status": "inactive"
   },
   {
     "gender": "female",
-    "name": "Tapan Bharadwaj",
-    "id": 4052,
-    "email": "bharadwaj_tapan@turcotte.name",
-    "status": "active"
-  },
-  {
-    "gender": "male",
-    "name": "Chatura Chopra",
-    "id": 4051,
-    "email": "chopra_chatura@carter.biz",
+    "name": "Chandra Jha",
+    "id": 3469,
+    "email": "chandra_jha@rempel-rowe.biz",
     "status": "inactive"
   },
   {
     "gender": "female",
-    "name": "Kanchan Desai",
-    "id": 4050,
-    "email": "desai_kanchan@dubuque-olson.net",
+    "name": "Gauranga Somayaji",
+    "id": 3467,
+    "email": "somayaji_gauranga@okon.info",
+    "status": "inactive"
+  },
+  {
+    "gender": "female",
+    "name": "Brahmabrata Varman",
+    "id": 3466,
+    "email": "varman_brahmabrata@cremin.net",
+    "status": "inactive"
+  },
+  {
+    "gender": "female",
+    "name": "Param Agarwal",
+    "id": 3465,
+    "email": "agarwal_param@bogisich.io",
     "status": "active"
   },
   {
-    "gender": "male",
-    "name": "Dandak Marar",
-    "id": 4049,
-    "email": "marar_dandak@gibson.name",
+    "gender": "female",
+    "name": "Dev Ahluwalia",
+    "id": 3464,
+    "email": "ahluwalia_dev@cummings.biz",
     "status": "inactive"
+  },
+  {
+    "gender": "female",
+    "name": "Uttam Naik",
+    "id": 3463,
+    "email": "uttam_naik@jacobs.info",
+    "status": "active"
   }
 ]
+
+12:15:41.977 [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "last_name": "Lawson",
+      "id": 7,
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "first_name": "Michael",
+      "email": "michael.lawson@reqres.in"
+    },
+    {
+      "last_name": "Ferguson",
+      "id": 8,
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "first_name": "Lindsay",
+      "email": "lindsay.ferguson@reqres.in"
+    },
+    {
+      "last_name": "Funke",
+      "id": 9,
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "first_name": "Tobias",
+      "email": "tobias.funke@reqres.in"
+    },
+    {
+      "last_name": "Fields",
+      "id": 10,
+      "avatar": "https://reqres.in/img/faces/10-image.jpg",
+      "first_name": "Byron",
+      "email": "byron.fields@reqres.in"
+    },
+    {
+      "last_name": "Edwards",
+      "id": 11,
+      "avatar": "https://reqres.in/img/faces/11-image.jpg",
+      "first_name": "George",
+      "email": "george.edwards@reqres.in"
+    },
+    {
+      "last_name": "Howell",
+      "id": 12,
+      "avatar": "https://reqres.in/img/faces/12-image.jpg",
+      "first_name": "Rachel",
+      "email": "rachel.howell@reqres.in"
+    }
+  ],
+  "page": 2,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+12:15:42.006 [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "last_name": "Lawson",
+      "id": 7,
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "first_name": "Michael",
+      "email": "michael.lawson@reqres.in"
+    },
+    {
+      "last_name": "Ferguson",
+      "id": 8,
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "first_name": "Lindsay",
+      "email": "lindsay.ferguson@reqres.in"
+    },
+    {
+      "last_name": "Funke",
+      "id": 9,
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "first_name": "Tobias",
+      "email": "tobias.funke@reqres.in"
+    },
+    {
+      "last_name": "Fields",
+      "id": 10,
+      "avatar": "https://reqres.in/img/faces/10-image.jpg",
+      "first_name": "Byron",
+      "email": "byron.fields@reqres.in"
+    },
+    {
+      "last_name": "Edwards",
+      "id": 11,
+      "avatar": "https://reqres.in/img/faces/11-image.jpg",
+      "first_name": "George",
+      "email": "george.edwards@reqres.in"
+    },
+    {
+      "last_name": "Howell",
+      "id": 12,
+      "avatar": "https://reqres.in/img/faces/12-image.jpg",
+      "first_name": "Rachel",
+      "email": "rachel.howell@reqres.in"
+    }
+  ],
+  "page": 2,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+12:15:42.017 [print] {
+  "outside": 6
+}
 

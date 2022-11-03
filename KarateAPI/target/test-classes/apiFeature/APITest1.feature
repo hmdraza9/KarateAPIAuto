@@ -48,7 +48,7 @@ Scenario: Hello World
 	* def fun2Val = call myFunct2 'param'
 	* print fun1Val
 	* print fun2Val
-	* def featureReturnVal = call read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
+	* def featureReturnVal = call read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
 	* def ll = featureReturnVal.response
 	* print ll
 	* def eefe = read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature')
@@ -65,4 +65,25 @@ Scenario: Hello World
   * url 'https://gorest.co.in/public/v2/users'
   * method GET
   * print response
+  #------------.. (double dot means one dir back i.e. parent directory.)------------
+   #below creates file at given path which falls in project path
+  * karate.write("sss","../src/test/java/outputJSON/blah1.json")
+  #below creates file even before src
+  * karate.write("sss","../blah2.json")
+  #below 3 and 4 files creates file in target
+  * karate.write("sss",'/blah3.json')
+  * karate.write("sss",'blah4.json')
+  * def readLocal = read('../inputBody/inputJSON.json')
+  * print readLocal
+  #below creates file before src, inside given path
+  * karate.write("sss","../asdf/blah5.json")
+  #below creates file at given path which falls in project path
+  * karate.write("sss","../src/test/java/blah6.json")
+  #file create tutorial ends here
+  #file to read should be inside src/test/java/ , can't go more backward as per current knowledge
+  * def readIt = read("../inputBody/inputJSON.json")
+  * print readIt
+  * def readIt = read("../blah7.json")
+  * print readIt
   
+    

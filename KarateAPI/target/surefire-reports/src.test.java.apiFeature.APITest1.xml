@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/apiFeature/APITest1.feature" skipped="0" tests="1" time="2.264663">
-  <testcase classname="src.test.java.apiFeature.APITest1" name="Hello World" time="2.264663">
+<testsuite failures="0" name="src/test/java/apiFeature/APITest1.feature" skipped="0" tests="1" time="2.656974">
+  <testcase classname="src.test.java.apiFeature.APITest1" name="Hello World" time="2.656974">
     <system-out>* print 'Hello world' ..................................................... passed
 * url 'https://reqres.in/api/users?page=2' ................................ passed
 * method GET .............................................................. passed
@@ -29,7 +29,7 @@
 * def fun2Val = call myFunct2 'param' ..................................... passed
 * print fun1Val ........................................................... passed
 * print fun2Val ........................................................... passed
-* def featureReturnVal = call read('C:/WSs/newKarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature') . passed
+* def featureReturnVal = call read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature') . passed
 * def ll = featureReturnVal.response ...................................... passed
 * print ll ................................................................ passed
 * def eefe = read('C:/GitClones/KarateAPIAuto/KarateAPI/src/test/java/apiFeature/calledFeature.feature') . passed
@@ -45,6 +45,18 @@
 * print ll[5] ............................................................. passed
 * url 'https://gorest.co.in/public/v2/users' .............................. passed
 * method GET .............................................................. passed
-* print response .......................................................... passed</system-out>
+* print response .......................................................... passed
+* karate.write("sss","../src/test/java/outputJSON/blah1.json") ............ passed
+* karate.write("sss","../blah2.json") ..................................... passed
+* karate.write("sss",'/blah3.json') ....................................... passed
+* karate.write("sss",'blah4.json') ........................................ passed
+* def readLocal = read('../inputBody/inputJSON.json') ..................... passed
+* print readLocal ......................................................... passed
+* karate.write("sss","../asdf/blah5.json") ................................ passed
+* karate.write("sss","../src/test/java/blah6.json") ....................... passed
+* def readIt = read("../inputBody/inputJSON.json") ........................ passed
+* print readIt ............................................................ passed
+* def readIt = read("../blah7.json") ...................................... passed
+* print readIt ............................................................ passed</system-out>
   </testcase>
 </testsuite>
