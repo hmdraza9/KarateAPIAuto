@@ -1,5 +1,4 @@
-@RunMeOne
-Feature: Hello World feature
+Feature: Req Res first API feature file
 
 Scenario: Hello World
 
