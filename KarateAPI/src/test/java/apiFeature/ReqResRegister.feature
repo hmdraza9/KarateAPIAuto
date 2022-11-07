@@ -11,3 +11,4 @@ Scenario: Req Res register scenario
   * print 'User ID: ' + reqID
   * def reqToken = response.token
   * print 'User Token: ' + reqToken
+  

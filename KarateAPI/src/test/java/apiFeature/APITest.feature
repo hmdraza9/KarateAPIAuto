@@ -106,8 +106,3 @@ Scenario: Hello World
   * print kiddo
   * def onee = kiddo.result
   * print onee
- 
-  
-  
-  
-    

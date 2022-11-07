@@ -7,3 +7,4 @@ Scenario:
 	* url 'https://reqres.in/api/users'
 	* method GET
 	* print response
+	
