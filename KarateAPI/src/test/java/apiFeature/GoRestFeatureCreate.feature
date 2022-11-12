@@ -22,4 +22,11 @@ Scenario: Req Res user create 1
   * print response
   * print response.code
   * print response.data.length
+  * print reqBody
+  #* def opData = read('classpath:src/test/java/javaUtils/MyFileAppender.java')
+  * def opData = Java.type('classpath:src/test/java/javaUtils/MyFileAppender.java')
+  * opDataReturnText = opData.textFileAppender('Hamid Raza')
+  * print opDataReturnText
+  * print opData
+  
   

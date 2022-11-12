@@ -101,7 +101,7 @@ Scenario: Hello World
   * method GET
   * print response
   * karate.write(response,'../src/test/java/outputJSON/guru99.json')
-  * call sleep 5
+  #* call sleep 5
   * def kiddo = read('classpath:src/test/java/outputJSON/guru99.json')
   * print kiddo
   * def onee = kiddo.result
